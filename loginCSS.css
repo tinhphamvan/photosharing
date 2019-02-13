@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url("images/loginbackground2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+background-position: center ;
+
+}
+.uploadcare--widget__button_type_open {
+    background-color: darkgrey;
+}
+.uploadcare--widget__dragndrop-area {
+    line-height: 3.4;
+    margin-top: -1.8em;
+}
+.uploadcare--widget_status_loaded .uploadcare--widget_status {
+    display: inline-block !important;
+}
+
+.uploadcare--progress_type_canvas {
+    color: #56a8ff;
+    border-color: #d4dfe5;
+}
+.image-preview-single {
+    padding: 10px 0;
+}
+.image-preview-single > img {
+    width: 128px;
+    height: 96px;
+    vertical-align: middle;
+    visibility: hidden;
+    display: inline-block;
+}
+.container{
+height: 100%;
+align-content: center;
+
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.6) !important;
+
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0 !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+    position: relative;
+    width: 36px;
+    font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+    font-size: 0.75rem;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+    top: 3px;
+    line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+    top: -10px;
+}
+
+@media (min-width: 576px) {
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa > .badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
+        top: -7px;
+    }
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+.profileLeftSideContent{
+    width: 194px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 0px;
+    height: 200px;
+}
+.postForm{
+    float: right;
+    width: 580px;
+    height: 80px;
+    background-color: red;
+    padding: 5px;
+
+}
+.profilePosts{
+    float: right;
+    width: 580px;
+    height: 414px;
+    background-color: forestgreen;
+    padding: 5px;
+}   
